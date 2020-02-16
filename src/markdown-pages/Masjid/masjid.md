@@ -1,12 +1,12 @@
 ---
-title: "THE SCHOLARS ADVICE REGARDING SITTING WITH THE PEOPLE OF INNOVATION"
+title: "Al-Masjid"
 date: "2017-08-21"
 description: "salafi media"
-featuredImage: "../images/new.jpg"
-author: "Abu Uthaymeen"
+featuredImage: "../../images/masjid.jpg"
+author: "Abu Bakr"
 ---
 
-<q>Note that headers don't need line continuation characters as they are block elements and automatically break. Only text lines require the double spaces for single line breaks.</q>
+# Types of Masjid
 
 #### على األرض، وهـم بذبحه، ولكن رحمة الله - تعالى - أنقذته. وحدث ابنه، فكان مثال للطاعة قال : يا أبت افعل ما تؤمر فـطـرحـه
 
@@ -32,3 +32,5 @@ Inline code or member references like `SomeMethod()` can be codified...
 </address>
 
 **Note:** Block quotes can be used to highlight important ideas.
+
+![first](./last.jpg)

@@ -1,0 +1,9 @@
+q::before,
+q::after {
+  font-size: 2.5rem;
+  font-family: georgia, serif;
+}
+
+q::after {
+  padding-top: 2rem;
+}

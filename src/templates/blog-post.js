@@ -3,19 +3,42 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import Img from "gatsby-image"
-import "./blog-post.css"
 
 export default ({ data }) => {
   const post = data.markdownRemark
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   return (
     <Layout>
-      <div>
+      <div
+        style={{
+          display: `grid`,
+          gridAutoRows: `minmax(.5rem, .5rem, auto)`,
+          gridTemplateColumns: `1fr 1fr`,
+        }}
+      >
+        <Img
+          fluid={featuredImgFluid}
+          className="header"
+          style={{
+            marginBottom: `1rem`,
+            background: `linear-gradient(.25turn, #e66465, #9198e5)`,
+            height: `10rem`,
+            gridRow: `1/3`,
+            gridColumn: `1/3`,
+          }}
+        />
         <div
           style={{
             display: `grid`,
             gridTemplateColumns: `7rem auto`,
-            paddingTop: `1rem`,
+            height: `10rem`,
+            paddingTop: `1.5rem`,
+            marginBottom: `1.6rem`,
+            gridRow: `2/4`,
+            gridColumn: `1/3`,
+            zIndex: `2`,
+            background: `linear-gradient(to bottom, rgba(255,255,255,.0), rgba(255,255,255,.9),rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1))`,
+            alignItems: `center`,
           }}
         >
           <Img
@@ -27,6 +50,9 @@ export default ({ data }) => {
               height: `6rem`,
               width: `6rem`,
               borderRadius: `50%`,
+              boxShadow: `0 1.665rem 2.5rem 0 rgba(62,136,91,.1),
+            0 .335rem .335rem 0 rgba(62,136,91,.1),
+            0 .167rem .167rem 0 rgba(62,136,91,1)`,
             }}
           />
           <div>
@@ -50,9 +76,8 @@ export default ({ data }) => {
             </h6>
           </div>
         </div>
-
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
+      <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )
 }

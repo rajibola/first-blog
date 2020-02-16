@@ -9,7 +9,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fff;
 }
 article,
 aside,
@@ -438,16 +437,19 @@ fieldset {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+
 blockquote {
+  font-style: italic;
   margin-left: 1.45rem;
   margin-right: 1.45rem;
   margin-top: 0;
   padding: 0.7rem;
   margin-bottom: 1.45rem;
-  font-size: 1.1rem;
-  line-height: 1.7rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
   border-radius: 5px;
   background: rgba(0, 128, 0, 0.08);
+  text-align: center;
 }
 form {
   margin-left: 0;

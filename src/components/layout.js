@@ -40,12 +40,33 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a> By ابو مجاهد
-        </footer>
       </div>
+      <footer
+        style={{
+          background: `#000`,
+          color: `white`,
+          textDecoration: `none`,
+          textAlign: `center`,
+          display: `flex`,
+          justifyContent: `center`,
+          flexWrap: `wrap`,
+        }}
+      >
+        <div
+          style={{
+            width: `20rem`,
+            margin: `1.5rem`,
+            height: `auto`,
+            // border: `2px solid black`,
+            alignContent: `center`,
+          }}
+        >
+          Al-Manhajus Salafiyy © {new Date().getFullYear()}, <div> </div>
+          <div>
+            <a>Developed By RAO Dev </a>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }
