@@ -12,7 +12,7 @@ export default ({ data }) => {
       <div
         style={{
           display: `grid`,
-          gridAutoRows: `minmax(.5rem, .5rem, auto)`,
+          gridAutoRows: `minmax(5rem,  auto)`,
           gridTemplateColumns: `1fr 1fr`,
         }}
       >
@@ -60,6 +60,7 @@ export default ({ data }) => {
               style={{
                 fontWeight: `400`,
                 marginBottom: `.25rem`,
+                fontSize: `1.3rem`,
                 fontStyle: `italic`,
                 color: `green`,
               }}
@@ -76,8 +77,14 @@ export default ({ data }) => {
             </h6>
           </div>
         </div>
+        <div
+          style={{
+            gridColumn: `1/3`,
+            gridRow: `4/5`,
+          }}
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
       </div>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )
 }

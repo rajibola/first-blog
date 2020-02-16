@@ -32,5 +32,3 @@ Inline code or member references like `SomeMethod()` can be codified...
 </address>
 
 **Note:** Block quotes can be used to highlight important ideas.
-
-![first](./last.jpg)
