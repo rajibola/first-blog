@@ -9,6 +9,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 100;
 }
 article,
 aside,
@@ -446,10 +447,12 @@ blockquote {
   padding: 0.7rem;
   margin-bottom: 1.45rem;
   font-size: 0.9rem;
-  line-height: 1rem;
-  border-radius: 5px;
-  background: rgba(0, 105, 0, 0.329);
+  line-height: 1.2rem;
+  border-radius: 0.2rem;
+  background: rgba(4, 255, 4, 0);
   text-align: center;
+  border-left: 0.2rem solid rgba(17, 95, 1, 0.644);
+  border-right: 0.2rem solid rgba(17, 95, 1, 0.644);
 }
 form {
   margin-left: 0;

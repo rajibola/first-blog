@@ -1,34 +1,23 @@
 ---
-title: "Al-Masjid"
-date: "2017-08-21"
-description: "salafi media"
+title: "Charms, Amulets and Talismans― Fortune-Tellers, Soothsayers and Astrologers in Light of the Quran and Sunnah"
+date: "2020-01-23"
+description: "Aqeedah, Free Leaflets & Booklets, Ruqyah Magic Possession, Tawheed"
 featuredImage: "../../images/masjid.jpg"
-author: "Abu Bakr"
+author: "Abu Khadeejah Abdul-Wahid"
 ---
 
-# Types of Masjid
+![Amulet](../../images/Amulets-Charms-Taweez-2020.jpg)
 
-#### على األرض، وهـم بذبحه، ولكن رحمة الله - تعالى - أنقذته. وحدث ابنه، فكان مثال للطاعة قال : يا أبت افعل ما تؤمر فـطـرحـه
+## Charms, Amulets and Talismans― Fortune-Tellers, Soothsayers and Astrologers in Light of the Qur’an and Sunnah
 
-> ### @ icon-info-circle Headers break on their own
->
-> Note that headers don't need line continuation characters as they are block
+#### Quick Definitions:
 
-Inline code or member references like `SomeMethod()` can be codified...
+<b><i>Seance:</i></b> a meeting at which people attempt to make contact with the dead, especially through the agency of a medium.<br />
+<b><i>Fortune-teller:</i></b> a person who is supposedly able to predict a person’s future by palmistry, using a crystal ball, or similar methods.<br />
+<b><i>Soothsayer:</i></b> a person supposed to be able to foresee the future.<br />
+<b><i>Astrologer:</i></b> the study that assumes and attempts to interpret the influence of the heavenly bodies on human affairs.<br />
+<b><i>Talisman:</i></b> An object, typically an inscribed ring or stone, that is thought to have magic powers and to bring good luck.<br />
+<b><i>Charm:</i></b> A good luck charm or lucky charm is an item that is believed to bring luck.<br />
+<b><i>Amulet:</i></b> an ornament or small piece of jewellery thought to give protection against evil, danger, or disease.
 
-> ### @ icon-info-circle Headers break on their own
->
-> Note that headers don't need line continuation characters as they are block elements and automatically break. Only text lines require the double spaces for single line breaks.
->
-> <address>Surah 54, verse 13</address>
-
-<address>
- Written by John Doe.<br>
- Visit us at:<br>
- Example.com<br>
- Box 564, Disneyland<br>
- USA
-
-</address>
-
-**Note:** Block quotes can be used to highlight important ideas.
+download to your device by clicking the [download PDF](http://www.abukhadeejah.com/wp-content/uploads/2020/01/Amulets-Charms-Taweez-2020-Ebook.pdf) button.
