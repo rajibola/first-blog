@@ -33,13 +33,7 @@ export default ({ data }) => (
 
     <div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div
-          key={node.id}
-          style={{
-            borderBottom: `1px solid #fff`,
-            marginBottom: `3rem`,
-          }}
-        >
+        <div key={node.id} style={}>
           <div>
             <BlogLink to={node.fields.slug}>
               <BlogTitle>
